@@ -1,0 +1,81 @@
+.gameScreen {
+  justify-content: center;
+  display: flex;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameHeader {
+  padding: 0px;
+  max-width: 100%;
+  margin: 0px;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 5px;
+  border-color: blue;
+}
+
+.startButton {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(213, 213, 236);
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 5px;
+  border-radius: 10px;
+
+  box-shadow: 0 10px 8px #c9372c;
+}
+
+.gameBox {
+  max-width: 70%;
+  height: 500px;
+  background-color: lightgray;
+  align-content: center;
+  margin-left: auto;
+  margin-top: 25px;
+  border-radius: 5px;
+  margin-right: auto;
+  box-shadow: 10px 10px;
+}
+
+.gameIntro {
+  margin-top: auto;
+  margin-bottom: 400px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.gameCardContainer {
+  display: flex;
+  top: 280px;
+  background-color: rgb(64, 56, 46);
+  display: flex;
+  height: 350px;
+  width: 815px;
+  background-color: rgb(64, 56, 46);
+  position: absolute;
+  border-radius: 10px;
+}
+.gameCards {
+  display: flex;
+  column-gap: 25px;
+  height: 400px;
+  flex-wrap: inherit;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  width: 350px;
+  height: 220px;
+  background: white;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 0 9px 8px #1868db;
+}
